@@ -1,0 +1,21 @@
+{
+  "name": "automations",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "listen": "nodemon src/listen.js"
+  },
+  "author": "Leon Machens",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "node-notifier": "^7.0.2"
+  }
+}
